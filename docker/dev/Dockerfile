@@ -1,5 +1,5 @@
-FROM jmenga/todobackend-base:latest
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+FROM hauraki/todobackend-base:latest
+MAINTAINER Norbert Stein <norbert@hauraki.de>
 
 # Install dev/build dependencies
 RUN apt-get update && \
